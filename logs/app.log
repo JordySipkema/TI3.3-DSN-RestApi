@@ -1,0 +1,147 @@
+[February 14th 2017, 3:44:21 pm] Listening server on port 5000
+[February 14th 2017, 3:44:21 pm] POST /api/login
+[February 14th 2017, 3:44:21 pm] Username = restapiv1
+[February 14th 2017, 3:44:21 pm] ENVUsername = restapiv1
+[February 14th 2017, 3:44:21 pm] POST /api/login
+[February 14th 2017, 3:44:21 pm] Username = restapiv1
+[February 14th 2017, 3:44:21 pm] ENVUsername = restapiv1
+[February 14th 2017, 3:44:21 pm] POST /api/login
+[February 14th 2017, 3:44:21 pm] Username = restapiv1
+[February 14th 2017, 3:44:21 pm] ENVUsername = restapiv1
+[February 14th 2017, 4:31:39 pm] Listening server on port 5000
+[February 14th 2017, 4:31:39 pm] POST /api/login
+[February 14th 2017, 10:07:02 pm] TypeError: Cannot read property 'app' of undefined
+    at Object.getAll (/Users/jordysipkema/Sites/RestApi/Routes/sensor.js:3:12)
+    at Object.<anonymous> (/Users/jordysipkema/Sites/RestApi/Routes/router.js:7:36)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/jordysipkema/Sites/RestApi/app.js:62:14)
+[February 14th 2017, 10:09:01 pm] Listening server on port 5000
+[February 14th 2017, 10:09:01 pm] POST /api/login
+[February 14th 2017, 10:09:01 pm] POST /api/login
+[February 14th 2017, 10:09:01 pm] POST /api/login
+[February 14th 2017, 10:09:01 pm] POST /api/measurement/
+[February 14th 2017, 10:09:01 pm] Userid: restapi
+[February 14th 2017, 10:09:01 pm] GET /api/measurement/
+[February 14th 2017, 10:09:01 pm] Userid: restapi
+[February 14th 2017, 10:09:01 pm] GET /api/measurement/
+[February 14th 2017, 10:09:01 pm] Userid: restapi
+[February 14th 2017, 10:38:57 pm] Listening server on port 5000
+[February 14th 2017, 10:40:16 pm] 2017-40-Tu 22:02:02
+[February 14th 2017, 10:40:16 pm] Listening server on port 5000
+[February 14th 2017, 10:40:16 pm] GET /api/nest/fetch
+[February 14th 2017, 10:47:57 pm] 2017-47-Tu 10:47:58
+[February 14th 2017, 10:47:57 pm] Listening server on port 5000
+[February 14th 2017, 10:47:57 pm] GET /api/nest/fetch
+[February 14th 2017, 10:50:32 pm] 2017-02-14 22:50:32
+[February 14th 2017, 10:50:32 pm] Listening server on port 5000
+[February 14th 2017, 10:50:32 pm] GET /api/nest/fetch
+[February 14th 2017, 11:09:50 pm] Listening server on port 5000
+[February 14th 2017, 11:09:50 pm] POST /api/login
+[February 14th 2017, 11:09:50 pm] POST /api/login
+[February 14th 2017, 11:09:50 pm] GET /api/measurement/
+[February 14th 2017, 11:09:50 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] Listening server on port 5000
+[February 14th 2017, 11:29:07 pm] GET /api/sensor
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/2
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/1
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/2
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/3
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/4
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/5
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/6
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/0
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/-1
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/k
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/one
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/1
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:29:07 pm] GET /api/sensor/2
+[February 14th 2017, 11:29:07 pm] Userid: restapi
+[February 14th 2017, 11:44:17 pm] Listening server on port 5000
+[February 14th 2017, 11:44:45 pm] Listening server on port 5000
+[February 14th 2017, 11:44:45 pm] GET /api/sensor/
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/1
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/2
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/a
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:359:11)
+    at ServerResponse.header (/Users/jordysipkema/Sites/RestApi/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/jordysipkema/Sites/RestApi/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/jordysipkema/Sites/RestApi/node_modules/express/lib/response.js:250:15)
+    at Query._callback (/Users/jordysipkema/Sites/RestApi/Routes/sensor.js:16:21)
+    at Query.Sequence.end (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/Parser.js:75:12)
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/2
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/2/measurements/
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/1/measurements/
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/1/measurements/
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/2/measurements/
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/2
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:44:45 pm] GET /api/sensors/2/measurements
+[February 14th 2017, 11:44:45 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] Listening server on port 5000
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/2/measurements
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/2/
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/2/measurements/
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/3/measurements/
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/measurements
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 14th 2017, 11:47:32 pm] Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:359:11)
+    at ServerResponse.header (/Users/jordysipkema/Sites/RestApi/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/jordysipkema/Sites/RestApi/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/jordysipkema/Sites/RestApi/node_modules/express/lib/response.js:250:15)
+    at Query._callback (/Users/jordysipkema/Sites/RestApi/Routes/sensor.js:16:21)
+    at Query.Sequence.end (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/sequences/Sequence.js:86:24)
+    at Query._handleFinalResultPacket (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/sequences/Query.js:137:8)
+    at Query.EofPacket (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/sequences/Query.js:121:8)
+    at Protocol._parsePacket (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/Users/jordysipkema/Sites/RestApi/node_modules/mysql/lib/protocol/Parser.js:75:12)
+[February 14th 2017, 11:47:32 pm] GET /api/sensors/
+[February 14th 2017, 11:47:32 pm] Userid: restapi
+[February 17th 2017, 3:37:52 pm] Listening server on port 5000
+[February 17th 2017, 3:37:52 pm] GET /api/version
+[February 17th 2017, 3:37:52 pm] GET /favicon.ico
+[February 17th 2017, 3:37:52 pm] GET /api/version
+[February 17th 2017, 3:44:31 pm] Listening server on port 5000
+[February 17th 2017, 3:44:39 pm] GET /api/version
+[February 17th 2017, 3:44:43 pm] GET /api/version
