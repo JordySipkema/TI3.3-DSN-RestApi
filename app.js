@@ -52,12 +52,18 @@ app.all('/api/*', function(req, res, next)
 
     res.contentType('application/json');
 
-    next();
+    // intercept OPTIONS method
+    if ('OPTIONS' == req.method) {
+        res.send(200);
+    }
+    else {
+        next();
+    }
 });
 
 app.get('/api/version', function(req,res) {
     res.status(200);
-    res.send('{"version": '+ process.env.VERSION +'}')
+    res.send('{"version": '+ process.env.VERSION +'}');
 });
 app.post('/api/login', require('./Routes/auth.js').login);
 app.get('/api/nest/fetch', require('./Routes/nest.js').fetch);
