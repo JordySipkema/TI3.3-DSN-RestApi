@@ -3,6 +3,7 @@ var jwt = require('jwt-simple');
 module.exports = function (req, res, next) {
 
     var token = (req.header('X-Access-Token')) || '';
+    console.log(token);
 
     if (token) {
         try {

@@ -1,8 +1,6 @@
 var request = require('request');
 var moment = require('moment');
 
-//var now = moment();  <--- hier stond het ._.
-
 var nest = {
     lastJson: function(){
         // Nest consists of 4 parameters;
