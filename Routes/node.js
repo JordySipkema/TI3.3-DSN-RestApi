@@ -37,10 +37,19 @@ var nodes = {
         var node_id = req.params.id;
         validator.validateId(node_id, res, null);
 
-        req.app.get('DB:pool')
-            .query('SELECT * from node;', function (err, rows, fields) {
-                res.json(rows);
-            });
+        res.status(200);
+        res.json({
+            "status": "OK",
+            "data": [{
+                "id": node_id,
+                "nodeid": node_id,
+                "type": 5,
+                "conifg": {
+                    "pin": 5
+                }
+            }]
+        });
+
     },
     getNodeInfo: function(req, res){
         var node_hex_id = '0x' + req.params.id;

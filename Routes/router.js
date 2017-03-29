@@ -14,7 +14,7 @@ router.get('/api/sensors/:id', sensors.get);
 router.get('/api/nest/last', nest.last);
 
 router.get('/nodes/info/:id', node.getNodeInfo);
-router:get('/nodes/sensors/:id', {}());
+router.get('/nodes/sensors/:id', node.getNodeSensors);
 
 // POST Routes = insert values
 router.post('/nodes/ping/:id', node.ping);
