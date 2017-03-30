@@ -17,10 +17,11 @@ var nodes = {
         ];
 
         req.app.get('DB:pool')
-            .query('INSERT INTO heartbeat (`node_id`, `heapspace`, `timestamp`) VALUES (?)',
-                [insert], function(err, rows){
+            .query('INSERT INTO heartbeat (node_id, heapspace, timestamp) VALUES (?)',
+                [insert], function(err){
                     if (err){
-                        res.status(500);
+                        console.log("Error: " + err);
+                        res.status(400);
                         res.json({
                             "result": "Error",
                             "message": err
@@ -44,7 +45,7 @@ var nodes = {
                 "id": node_id,
                 "nodeid": node_id,
                 "type": 5,
-                "conifg": {
+                "config": {
                     "pin": 5
                 }
             }]
@@ -58,7 +59,7 @@ var nodes = {
         validator.validateId(node_id, res, null);
 
         req.app.get('DB:pool')
-            .query('SELECT id, name from node where hw_id = ?;', [node_id], function (err, rows, fields) {
+            .query('SELECT id, name from node where hw_id = ?;', [node_id], function (err, rows) {
                 if (err || rows.length < 1) {
                     res.status(400);
                     res.json({

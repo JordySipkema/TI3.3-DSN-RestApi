@@ -20,3 +20,42 @@
 [March 28th 2017, 3:40:26 pm] POST /nodes/ping/1
 [March 28th 2017, 3:46:33 pm] POST /nodes/ping/1
 [March 28th 2017, 3:46:39 pm] POST /nodes/ping/
+[April 5th 2017, 3:55:57 pm] Listening server on port 65010
+[April 5th 2017, 3:56:17 pm] POST /nodes/ping/2
+[April 5th 2017, 3:56:17 pm] Node 2 is alive.
+[April 5th 2017, 3:56:17 pm] ReqBody All: [object Object]
+[April 5th 2017, 3:56:17 pm] ReqBody.HS: undefined
+[April 5th 2017, 3:56:17 pm] Heapspace: NaN
+[April 5th 2017, 3:58:20 pm] Listening server on port 65077
+[April 5th 2017, 3:58:33 pm] POST /nodes/ping/2
+[April 5th 2017, 3:58:33 pm] Node 2 is alive.
+[April 5th 2017, 3:58:33 pm] ReqBody All: {}
+[April 5th 2017, 3:58:33 pm] ReqBody.HS: undefined
+[April 5th 2017, 3:58:33 pm] Heapspace: NaN
+[April 5th 2017, 4:08:00 pm] Listening server on port 5000
+[April 5th 2017, 4:08:12 pm] POST /nodes/ping/2
+[April 5th 2017, 4:08:12 pm] Node 2 is alive.
+[April 5th 2017, 4:08:12 pm] ReqBody All: {}
+[April 5th 2017, 4:08:12 pm] ReqBody.HS: undefined
+[April 5th 2017, 4:08:12 pm] Heapspace: NaN
+[April 5th 2017, 4:10:42 pm] POST /nodes/ping/2
+[April 5th 2017, 4:10:42 pm] Node 2 is alive.
+[April 5th 2017, 4:10:42 pm] ReqBody All: {
+  "heapspace": "12345"
+}
+[April 5th 2017, 4:10:42 pm] ReqBody.HS: 12345
+[April 5th 2017, 4:10:42 pm] Heapspace: 12345
+[April 5th 2017, 4:11:24 pm] POST /nodes/ping/2
+[April 5th 2017, 4:11:24 pm] Node 2 is alive.
+[April 5th 2017, 4:11:24 pm] ReqBody All: {
+  "heapspace": "12345"
+}
+[April 5th 2017, 4:11:24 pm] ReqBody.HS: 12345
+[April 5th 2017, 4:11:24 pm] Heapspace: 12345
+[April 5th 2017, 4:14:33 pm] POST /nodes/ping/2
+[April 5th 2017, 4:14:33 pm] Node 2 is alive.
+[April 5th 2017, 4:14:33 pm] ReqBody All: {
+  "heapspace": 12345
+}
+[April 5th 2017, 4:14:33 pm] ReqBody.HS: 12345
+[April 5th 2017, 4:14:33 pm] Heapspace: 12345
