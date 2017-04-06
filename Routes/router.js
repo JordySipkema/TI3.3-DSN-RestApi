@@ -13,8 +13,8 @@ router.get('/api/sensors/:id/measurements/', measurements.getBySensorId);
 router.get('/api/sensors/:id', sensors.get);
 router.get('/api/nest/last', nest.last);
 
-router.get('/nodes/info/:id', node.getNodeInfo);
-router.get('/nodes/sensors/:id', node.getNodeSensors);
+router.get('/nodes/:id', node.getNodeInfo);
+router.get('/nodes/:id/sensors', node.getNodeSensors);
 
 // POST Routes = insert values
 router.post('/nodes/ping/:id', node.ping);

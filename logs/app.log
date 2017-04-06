@@ -59,3 +59,129 @@
 }
 [April 5th 2017, 4:14:33 pm] ReqBody.HS: 12345
 [April 5th 2017, 4:14:33 pm] Heapspace: 12345
+[April 6th 2017, 5:18:00 pm] Listening server on port 5000
+[April 6th 2017, 5:18:39 pm] GET /nodes/sensors/3
+[April 6th 2017, 5:18:39 pm] Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (D:\Laragon\www\RestApi\node_modules\express\lib\response.js:719:10)
+    at ServerResponse.send (D:\Laragon\www\RestApi\node_modules\express\lib\response.js:164:12)
+    at ServerResponse.json (D:\Laragon\www\RestApi\node_modules\express\lib\response.js:250:15)
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:55:15)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+[April 6th 2017, 5:18:59 pm] GET /nodes/sensors/3
+[April 6th 2017, 5:18:59 pm] Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (D:\Laragon\www\RestApi\node_modules\express\lib\response.js:719:10)
+    at ServerResponse.send (D:\Laragon\www\RestApi\node_modules\express\lib\response.js:164:12)
+    at ServerResponse.json (D:\Laragon\www\RestApi\node_modules\express\lib\response.js:250:15)
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:55:15)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+[April 6th 2017, 5:19:03 pm] Listening server on port 5000
+[April 6th 2017, 5:19:06 pm] GET /nodes/sensors/3
+[April 6th 2017, 5:21:45 pm] GET /nodes/sensors/3
+[April 6th 2017, 5:24:26 pm] Listening server on port 5000
+[April 6th 2017, 5:24:29 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:18:40 pm] Listening server on port 5000
+[April 6th 2017, 6:18:45 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:27:38 pm] Listening server on port 5000
+[April 6th 2017, 6:27:39 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:31:40 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:32:50 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:35:09 pm] Listening server on port 5000
+[April 6th 2017, 6:35:17 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:35:17 pm] TypeError: Cannot set property 'pin' of undefined
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:66:58)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Laragon\www\RestApi\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[April 6th 2017, 6:38:38 pm] Listening server on port 5000
+[April 6th 2017, 6:38:41 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:38:41 pm] TypeError: Cannot read property 'config' of undefined
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:67:35)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Laragon\www\RestApi\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[April 6th 2017, 6:41:53 pm] Listening server on port 5000
+[April 6th 2017, 6:41:55 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:41:55 pm] TypeError: Cannot read property 'config' of undefined
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:67:35)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Laragon\www\RestApi\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[April 6th 2017, 6:43:33 pm] Listening server on port 5000
+[April 6th 2017, 6:43:35 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:43:35 pm] TypeError: Cannot read property 'config' of undefined
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:67:35)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Laragon\www\RestApi\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[April 6th 2017, 6:43:54 pm] Listening server on port 5000
+[April 6th 2017, 6:43:54 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:43:54 pm] TypeError: Cannot read property 'config' of undefined
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:67:35)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Laragon\www\RestApi\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[April 6th 2017, 6:44:03 pm] Listening server on port 5000
+[April 6th 2017, 6:44:05 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:44:53 pm] TypeError: Cannot read property 'config' of undefined
+    at Query._callback (D:\Laragon\www\RestApi\Routes\node.js:67:35)
+    at Query.Sequence.end (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Query._handleFinalResultPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:137:8)
+    at Query.EofPacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\sequences\Query.js:121:8)
+    at Protocol._parsePacket (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (D:\Laragon\www\RestApi\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Laragon\www\RestApi\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[April 6th 2017, 6:44:54 pm] Listening server on port 5000
+[April 6th 2017, 6:44:54 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:46:26 pm] Listening server on port 5000
+[April 6th 2017, 6:46:26 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:50:28 pm] Listening server on port 5000
+[April 6th 2017, 6:50:31 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:50:34 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:50:34 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:56:12 pm] Listening server on port 5000
+[April 6th 2017, 6:56:16 pm] GET /nodes/sensors/3
+[April 6th 2017, 6:57:41 pm] Listening server on port 5000
+[April 6th 2017, 6:57:43 pm] GET /nodes/sensors/3
